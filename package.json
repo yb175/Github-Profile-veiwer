@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "type": "module"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url ./"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
